@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;700&display=swap');
+
+@import url(/NexyTech/components/config/reset.css);
+
+:root {
+    --preto: #000;
+    --branco: #fff;
+}
+
+[data-theme="dark"]{
+    
+    --bg-dark: #1A1A1A;
+    --bg-light: #FFFFFF;
+}
+
+body {
+    background-color: var(--bg-light);
+}
