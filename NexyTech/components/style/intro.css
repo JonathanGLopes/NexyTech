@@ -1,0 +1,52 @@
+.intro {
+    margin-top: 3rem;
+}
+
+.intro-banner {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.intro-banner__img {
+    width: 104px;
+    height: 261px;
+}
+
+.intro-banner__img:nth-child(even){
+    margin-top: 4rem;
+}
+
+.intro-description{
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.intro-description__text {
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    width: 325px;
+}
+
+.intro-description__button {
+    background-color: var(--azul);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif;
+    padding: 1rem;
+    color: var(--branco);
+    width: 170px;
+    height: 31px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.intro-description__arrow {
+    width: 40px;
+}
