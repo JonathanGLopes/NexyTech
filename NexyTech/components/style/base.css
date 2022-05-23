@@ -3,11 +3,17 @@
 @import url(/NexyTech/components/config/reset.css);
 @import url(header.css);
 @import url(intro.css);
+@import url(cards.css);
+
+.container {
+    margin: 25px 25px ;
+}
 
 :root {
     --preto: #000;
     --branco: #fff;
     --azul: #2B9CED;
+    --cinza: #536379;
 }
 
 [data-theme="dark"]{

@@ -2,12 +2,41 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+}
+/* 
+.navbar {
+    display: none;
+} */
+
+.wrap-nav {
+    transform: translateX(100%);
 }
 
-.navigation {
-    display: none;
+.navbar__links {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    width: 100%;
+    transition: transform 200ms linear;
+    padding: 2rem 0;
+    background-color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    font-family: 'Lexend', sans-serif;
 }
+
+.navbar__links a:last-child{
+    background-color: var(--azul);
+    color: var(--branco);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.navbar__active {
+    transform: translateX(0);
+ }
 
 .logo-icon{
     width: 40px;

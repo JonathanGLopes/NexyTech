@@ -18,8 +18,8 @@
 }
 
 .intro-description{
-    padding: 2rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
 }
 
 .intro-description__text {
@@ -45,6 +45,7 @@
     justify-content: center;
     gap: 1rem;
     margin-top: 2rem;
+    box-shadow: 0 0 1rem rgba(43, 167, 237, 0.23);
 }
 
 .intro-description__arrow {
