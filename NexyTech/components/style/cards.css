@@ -1,0 +1,25 @@
+.card {
+    width: 323px;
+    height: 346px;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card-icon {
+    width: 70px;
+}
+
+.card-title {
+    font-size: 19px;
+    font-weight: 700;
+    font-family: 'Lexend', sans-serif;
+}
+
+.card-description {
+    font-family: 'Lexend', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--cinza);
+}
