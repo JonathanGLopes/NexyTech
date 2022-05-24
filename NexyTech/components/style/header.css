@@ -9,7 +9,7 @@
 } */
 
 .wrap-nav {
-    transform: translateX(100%);
+    transform: translateX(-100%);
 }
 
 .navbar__links {
