@@ -1,0 +1,38 @@
+.services {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.service-span {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--cinza);
+    font-family: 'Lexend', sans-serif;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.card-img {
+    width: 58px;
+}
+
+.card-title {
+    font-size: 19px;
+    font-weight: 700;
+    font-family: 'Lexend', sans-serif;
+}
+
+.card-description{
+    font-size: 14px;
+    line-height: 22px;
+    font-family:'Lexend', sans-serif;
+    color: var(--cinza);
+}
