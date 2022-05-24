@@ -6,6 +6,7 @@
 @import url(cards.css);
 @import url(reference.css);
 @import url(service.css);
+@import url(team.css);
 
 .container {
     margin: 25px 25px ;
