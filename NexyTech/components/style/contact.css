@@ -1,0 +1,30 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.contact-title {
+    font-size: 24px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    color: var(--preto);
+}
+
+.contact-description {
+    font-size: 12px;
+    font-family: 'Lexend', sans-serif;
+    color: var(--cinza);
+    margin-top: 0.5rem;
+}
+
+.contact-button {
+    padding: 0.9rem;
+    background-color: var(--azul);
+    color: var(--branco);
+    font-family: 'Lexend', sans-serif;
+    border-radius: 5px;
+    width: 170px;
+    text-align: center;
+    margin-top: 2rem;
+}
