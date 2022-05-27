@@ -8,9 +8,10 @@
 @import url(service.css);
 @import url(team.css);
 @import url(contact.css);
+@import url(social.css);
 
 .container {
-    margin: 25px 25px ;
+    padding: 25px 25px ;
 }
 
 :root {
