@@ -51,3 +51,12 @@
 .intro-description__arrow {
     width: 40px;
 }
+
+/* 760px*/
+
+@media (min-width: 760px){
+    .intro-banner {
+        gap: 2rem;
+    }
+
+}
