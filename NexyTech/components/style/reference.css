@@ -22,3 +22,16 @@
     line-height: 25px;
     color: var(--cinza);
 }
+
+/* 760px */
+
+@media (min-width: 760px){
+    .reference-vector{
+        top: 138rem;
+    }
+
+    .main-title {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
