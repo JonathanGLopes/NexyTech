@@ -1,5 +1,8 @@
 # NexyTech
 
+### Descrição
+- 
+
 
 ### Capturas de tela
 #### Mobile: introdução
