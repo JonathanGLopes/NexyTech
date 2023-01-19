@@ -60,3 +60,25 @@
     }
 
 }
+
+/* 1024px */
+
+@media (min-width: 1024px){
+    .intro {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    .intro-description__text {
+        width: 583px;
+        font-size: 37px;
+    }
+
+    .intro-banner__img {
+        width: 165px;
+        height: 414px;
+    }
+}
