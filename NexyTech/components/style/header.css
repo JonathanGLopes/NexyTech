@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 25px;
 }
 /* 
 .navbar {
@@ -44,4 +45,29 @@
 
 .menu-mobile__icon {
     width: 50px;
+}
+
+
+/* 1024px */
+
+@media (min-width: 1024px){
+    .main-header {
+        padding: 25px 130px;
+    }
+
+    .navbar__links > a:hover:not(:last-child){
+        color: var(--azul);
+        transition: 300ms all;
+    }
+
+    .navbar__links {
+        position: static;
+        flex-direction: row;
+        justify-content: space-between;
+        transform: translateX(0);
+    }
+
+    .menu-mobile__icon, .menu-mobile {
+        display: none;
+    }
 }
