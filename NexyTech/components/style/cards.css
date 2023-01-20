@@ -42,3 +42,28 @@
         gap: 2rem;
     }
 }
+
+/* 1024px */
+@media (min-width: 1024px){
+    .cards {
+        flex-direction: row;
+        margin-top: 47px;
+    }
+
+    .card {
+        width: 342px;
+        height: 346px;
+        background-color: transparent;
+    }
+
+    .main-description {
+        color: #536379;
+        line-height: 22px;
+    }
+
+    .main-title {
+        margin: 0 !important;
+        display: flex;
+        text-align: start;
+    }
+}
