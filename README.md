@@ -1,7 +1,7 @@
 # NexyTech
 
 ### Descrição
-- 
+- Projeto de uma plataforma fictícia que presta serviços na área de tecnologia.
 
 
 ### Capturas de tela
