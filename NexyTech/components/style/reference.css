@@ -35,3 +35,47 @@
         text-align: center;
     }
 }
+
+/* 1024px */
+@media (min-width: 1024px){
+    .reference {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 10rem;
+    }
+
+    .reference_img{
+        position: relative;
+    }
+
+    .reference-vector {
+        top: -35px;
+        left: -50px;
+    }
+
+    .reference-building {
+        width: 487px;
+        height: 360px;
+    }
+    
+    .reference_title {
+        width: 526px;
+        text-align: start;
+        font-size: 33px;
+        line-height: 46px;
+    }
+
+    .reference-description {
+        width: 526px;
+        height: 162px;
+        line-height: 27px;
+        font-size: 1rem;
+    }
+
+    .reference_text {
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+    }
+}
