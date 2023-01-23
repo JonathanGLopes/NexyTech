@@ -26,3 +26,25 @@
 .team-img{
     width: 100%;
 }
+
+/* 1024px */
+
+@media (min-width: 1024px){
+
+    .team-title {
+        font-size: 33px;
+    }
+
+    .team-span {
+        font-size: 14px;
+    }
+
+    .team-wrap {
+        display: flex;
+        justify-content: center;
+    }
+
+    .team-img {
+        width: 60%;
+    }
+}
