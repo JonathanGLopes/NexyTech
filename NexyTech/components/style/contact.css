@@ -28,3 +28,16 @@
     text-align: center;
     margin-top: 2rem;
 }
+
+/* 1024px */
+
+@media (min-width: 1024px){
+    .contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 0;
+    }
+}
