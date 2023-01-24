@@ -18,6 +18,10 @@
     margin-top: 0.5rem;
 }
 
+.contact_button {
+    margin-top: 2rem;
+}
+
 .contact-button {
     padding: 0.9rem;
     background-color: var(--azul);
@@ -39,5 +43,9 @@
         align-items: center;
         gap: 2rem;
         padding: 0;
+    }
+
+    .contact_button {
+        margin: 0;
     }
 }
