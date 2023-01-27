@@ -53,3 +53,23 @@ footer {
     background-color: #1A1A1A;
     color: var(--branco);
 }
+
+
+/* 1024px */
+
+@media (min-width: 1024px){
+    footer {
+        text-align: left;
+        padding: 2rem;
+    }
+
+    .divider {
+        margin-bottom: 2rem;
+    }
+
+    .social {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
