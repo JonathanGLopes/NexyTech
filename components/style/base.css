@@ -29,4 +29,6 @@
 
 body {
     background-color: var(--bg-light);
+    max-width: 1920px;
+    margin: 0 auto;
 }
